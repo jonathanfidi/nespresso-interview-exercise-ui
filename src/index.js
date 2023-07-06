@@ -1,3 +1,6 @@
-import '@/styles/index.scss'
+import capsuleInformationsInit from "./capsuleInformations";
+import capsuleSpecsInit from "./capsuleSpecs";
+import "@/styles/index.scss";
 
-// Your code here
+capsuleInformationsInit();
+capsuleSpecsInit();
